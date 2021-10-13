@@ -24,11 +24,18 @@ public class Main {
                     continue;
                 }
 
+//                CHECK FOR NEGATIVE OR ZERO
+                if (Integer.parseInt(arg) <= 0)
+                {
+                    System.out.println(arg + " is not a prime");
+                    continue;
+                }
+
 //                CHECKING FOR PRIME
                 if (checkPrime(Integer.parseInt(arg))) {
                     System.out.println(arg + " is a prime");
                 } else {
-                    System.out.println(arg + " is a not prime");
+                    System.out.println(arg + " is not a prime");
                 }
             }
             catch (Exception e) {
