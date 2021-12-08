@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+.post-card-front, .post-card-back {
+    border: solid black;
+    border-radius: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.post-card-front {
+    background-image: url("orlov_most.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#greetings {
+    margin-top: 3rem;
+    font-size: 3.75rem;
+}
+
+#city {
+    font-size: 6rem;
+    margin-top: 0;
+    margin-right: 5rem;
+    align-self: end;
+}
+
+#country {
+    font-size: 2rem;
+    color: gray;
+    margin-top: 28.5rem;
+}
+
+#mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: dashed;
+    border-color: black;
+
+    width: 6rem;
+    height: 9rem;
+
+    float: right;
+    margin: 2rem 2rem 0 0;
+}
+
+#text {
+    padding: 0 2.25rem 0 2.25rem;
+    margin-top: 17rem;
+}
+
+.text-line {
+    font-size: 1.5rem;
+    margin-top: 4.25rem;
+    border-bottom: solid black;
+}
+
+#address {
+    margin-top: 6rem;
+    padding: 0 20rem 0 2.25rem;
+}
+
+.address-line {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-bottom: solid black;
+}

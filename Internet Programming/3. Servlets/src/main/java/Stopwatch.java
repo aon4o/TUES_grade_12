@@ -10,7 +10,7 @@ public class Stopwatch {
 
     public Stopwatch() {
         baseTime = LocalTime.now();
-        laps.add(LocalTime.of( 0, 0, 0, 0));
+        laps.add(LocalTime.of(0, 0, 0, 0));
         lastLap = LocalTime.of(0, 0, 0, 0);
     }
 
@@ -58,7 +58,6 @@ public class Stopwatch {
             result.append(laps.indexOf(lap) + 1).append(" ")
                     .append(formatter.format(lap)).append(" / ")
                     .append(formatter.format(currentTime)).append("\n");
-            System.out.println(result);
         }
 
         return result.toString();
