@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/about/Profile_Picture.jpg">
+    <title>Portfolio - Alex Naida</title>
+</head>
+
+<body class="">
+<button class="btn" id="back-to-top">
+    <i class="fa-solid fa-angle-up"></i>
+</button>
+
+<header class="pb-5">
+    <nav id="navbar-scroll" class="navbar navbar-expand-lg fixed-top mt-3 mx-10 rounded-3">
+        <div class="container">
+            <span class="navbar-brand" href="#">Alex Naida - Portfolio</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="nav nav-pills ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pills-about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pills-experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pills-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+                <div class="row pb-10">
+                    <div class="col-md-12" id="pills-about">
+                        <div class="card mt-10">
+                            <div class="card-header">
+                                <h4>About</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <div class="col-2">
+                                        <img src="img/about/elsys30.jpg" class="float-start img-about" height="200" alt="Elsys">
+                                    </div>
+                                    <div class="card-text col-8 shadow-purple">
+                                        <p>
+                                            Hello! My name is<br>
+                                            <span id="name">Alex Naida</span>
+                                        </p>
+                                        <p>
+                                            I live in Sofia, Bulgaria.
+                                            Currently, I am learning System Programming in Technological School Electronic Systems at the Technical University - Sofia.
+                                            I have been learning programming since 2014.
+                                            I'm interested in Web Development, and my favorite language is Python.
+                                        </p>
+                                        <p>
+                                            In my free time, I like to learn new languages and technologies.
+                                            I also work on some side projects.
+                                        </p>
+                                        <p>
+                                            In the near future, I plan on doing a degree in Computer Science in a foreign country.
+                                        </p>
+                                        <p>
+                                            To find more about me, feel free to scroll down the page and maybe contact me!
+                                        </p>
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/about/Profile_Picture.jpg" class="float-end img-about" height="200" alt="Me">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-10">
+                    <div class="col-md-12" id="pills-experience">
+                        <div class="card mt-10">
+                            <div class="card-header">
+                                <h4>Experience</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="row justify-content-center align-self-center align-content-center">
+                                    <div class="col-md-8 pb-3 text-center">
+                                        <div class="list-group list-group-horizontal" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action active" id="list-technologies-list" data-bs-toggle="list" href="#list-technologies" role="tab" aria-controls="list-technologies">Technologies</a>
+                                            <a class="list-group-item list-group-item-action" id="list-projects-list" data-bs-toggle="list" href="#list-projects" role="tab" aria-controls="list-projects">Projects</a>
+                                            <a class="list-group-item list-group-item-action" id="list-certificates-list" data-bs-toggle="list" href="#list-certificates" role="tab" aria-controls="list-certificates">Certificates</a>
+                                            <a class="list-group-item list-group-item-action" id="list-awards-list" data-bs-toggle="list" href="#list-awards" role="tab" aria-controls="list-awards">Awards</a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-md-10">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-technologies" role="tabpanel" aria-labelledby="list-technologies-list">
+                                                <div class="row row-cols-3 justify-content-evenly">
+
+                                                    <div class="card col my-2" style="width: 18rem">
+                                                        <div class="card-header text-center">
+                                                            <i class="fa-solid fa-code"></i> Programming Languages <i class="fa-solid fa-code"></i>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="card-text text-end">
+                                                                <i class="fa-brands fa-html5"></i> +
+                                                                <i class="fa-brands fa-css3-alt"></i> +
+                                                                <i class="fa-brands fa-js"></i> - HTML + CSS + JS
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-python"></i> - Python
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-php"></i> - PHP
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-java"></i> - Java
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-solid fa-database"></i> - SQL Databases
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                                                </div>
+                                                                <br>
+                                                                c / c++
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                </div>
+                                                            </div>
+                                                            <p class="card-text"></p>
+                                                            <p class="card-text"></p>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="card col my-2" style="width: 18rem">
+                                                        <div class="card-header text-center">
+                                                            Technologies
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="card-text text-center">
+                                                                <i class="fa-brands fa-linux"></i> - Linux OS - Debian Distros
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-windows"></i> - Windows
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-bootstrap"></i> - Bootstrap 5
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-solid fa-font-awesome"></i> - Font Awsome
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                                                </div>
+                                                                <br>
+                                                                <i class="fa-brands fa-laravel"></i> - Laravel
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                                                                </div>
+                                                                <br>
+                                                                Flask
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                                <br>
+                                                                Django
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                                <br>
+                                                                Arduino
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card col my-2" style="width: 18rem">
+                                                        <div class="card-header text-center">
+                                                            Languages
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="card-text">
+                                                                Bulgarian (Native)
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-text pt-3">
+                                                                English
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%">B2 / C1</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="list-projects" role="tabpanel" aria-labelledby="list-projects-list">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div id="list-example" class="list-group">
+                                                            <a class="list-group-item list-group-item-action" href="#covidnews">CovidNews - 2020</a>
+                                                            <a class="list-group-item list-group-item-action" href="#verda">Verda - 2021</a>
+                                                            <a class="list-group-item list-group-item-action" href="#djcon">DJCON - 2021</a>
+                                                            <a class="list-group-item list-group-item-action" href="#list-item-3">LikeMe - Current</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy" tabindex="0">
+                                                            <div class="card mb-4" id="covidnews">
+                                                                <h4 class="card-header">CovidNews</h4>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">
+                                                                        CovidNews - a platform that helps you keep up to date with the latest information related to COVID-19. It also allows you to communicate directly with its users.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    HackTUES 6 - 2020
+                                                                    <a class="float-end text-pink ps-2" target="_blank" href="https://docs.google.com/presentation/d/13tVIq0IU1mZ3eG5fXpcDRlwfybZH8tpeum0B92SlgcM">
+                                                                        <i class="fa-solid fa-presentation-screen"></i>
+                                                                    </a>
+                                                                    <a class="float-end text-pink ps-2" target="_blank" href="https://github.com/aon2003/HackTUES6">
+                                                                        <i class="fa-brands fa-github"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card mb-4">
+                                                                <h4 class="card-header" id="verda">Verda</h4>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">
+                                                                        Verda is a chatbot that helps you understand and react appropriately to
+                                                                        the problems which surround us.
+                                                                        How can Verda help us?
+                                                                        The number of precious resources that our planet provides us is
+                                                                        declining daily - and all of that is our own fault. Deforestation,
+                                                                        biodiversity loss, and plastic pollution are only a small portion of global
+                                                                        disasters. Living our lives without complying with nature's laws is not
+                                                                        doing us any good, and we have to find a way to change this.
+                                                                        Thus, our idea - Verda. A chatbot, which gives you information about
+                                                                        matured problems and alternative solutions to them.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    HackTUES GG - 2021
+                                                                    <a class="float-end text-pink ps-2" target="_blank" href="https://tuesfest.bg/projects/40">
+                                                                        <i class="fa-solid fa-earth-americas"></i>
+                                                                    </a>
+                                                                    <a class="float-end text-pink ps-2" target="_blank" href="https://www.youtube.com/watch?v=ClBdkWSMF3I">
+                                                                        <i class="fa-brands fa-youtube"></i>
+                                                                    </a>
+                                                                    <a class="float-end text-pink ps-2" target="_blank" href="https://github.com/boki1/verda">
+                                                                        <i class="fa-brands fa-github"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card mb-4">
+                                                                <h4 class="card-header" id="djcon">DJCON</h4>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">
+                                                                        DJCON is an open-source software and hardware project for Linux PCs.
+                                                                        You can either use our audio player that can play up to two songs at
+                                                                        once and control them or follow the complete guide and create yourself
+                                                                        the DIY music controller with potentiometers, Arduino, and an optional
+                                                                        LCD.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    School Project - 2021
+                                                                    <a class="float-end text-pink" target="_blank" href="https://github.com/krispetrov/dj-controller">
+                                                                        <i class="fa-brands fa-github"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card mb-4" id="list-item-3">
+                                                                <h4 class="card-header">LikeMe / Oferti4ka.com</h4>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">
+                                                                        Online store platform in current development.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    2021 - Current
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="list-certificates" role="tabpanel" aria-labelledby="list-certificates-list">
+                                                <div class="row justify-content-evenly">
+                                                    <div class="card " style="width: 18rem">
+                                                        <img src="img/certificates/diploma.jpg" class="card-img-top img-award" alt="Certificate Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">First degree of Secondary vocational education</h5>
+                                                            <p class="card-text">Certificate for completing First degree of Secondary vocational education.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card " style="width: 18rem">
+                                                        <img src="img/certificates/cambridge.jpg" class="card-img-top img-award" alt="Certificate Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Cambridge English</h5>
+                                                            <p class="card-text">Certificate for Cambridge Level of English B2/C1.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="list-awards" role="tabpanel" aria-labelledby="list-awards-list">
+                                                <div class="row gap-3">
+
+                                                    <div class="card col" style="width: 18rem">
+                                                        <img src="img/awards/HackTUES6.jpg" class="card-img-top img-award" alt="Award Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">HackTues 6</h5>
+                                                            <p class="card-text">Award for participating in the HackTUES 6 Hackathon.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card col">
+                                                        <img src="img/awards/HackTUES%20GG.jpg" class="card-img-top img-award" alt="Award Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">HackTUES GG</h5>
+                                                            <p class="card-text">Award for participating in the HackTUES GG Hackathon.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card col">
+                                                        <img src="img/awards/HackTUES%20GG%20TelebidPro.jpg" class="card-img-top img-award" alt="Award Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">HackTUES GG</h5>
+                                                            <p class="card-text">Special Award from TelebidPro for participating in the HackTUES GG Hackathon.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card col">
+                                                        <img src="img/awards/HackTUES%20GG%20Second%20Place.jpg" class="card-img-top img-award" alt="Award Img">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">HackTUES GG</h5>
+                                                            <p class="card-text">Award for Second Place in the HackTUES GG Hackathon.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row pb-10">
+                    <div class="col-md-12" id="pills-contact">
+                        <div class="card mt-10">
+                            <div class="card-header">
+                                <h4>Contact</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-5 pb-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p class="card-text">You can get in touch with me from any of my social networks linked below.</p>
+                                                <p class="card-text pt-3">
+                                                    <a class="text-pink" target="_blank" href="https://www.facebook.com/aon4o">
+                                                        <i class="fa-brands fa-facebook"></i>
+                                                        FaceBook - Alex Naida
+                                                    </a>
+                                                </p>
+                                                <p class="card-text">
+                                                    <a class="text-pink" target="_blank" href="https://www.instagram.com/besen_aon4o/">
+                                                        <i class="fa-brands fa-instagram"></i>
+                                                        Instagram - besen_aon4o
+                                                    </a>
+                                                </p>
+                                                <p class="card-text">
+                                                    <a class="text-pink" target="_blank" href="https://github.com/aon2003">
+                                                        <i class="fa-brands fa-github"></i>
+                                                        GitHub - aon2003
+                                                    </a>
+                                                </p>
+                                                <p class="card-text">
+                                                    <a class="text-pink" target="_blank" href="https://www.linkedin.com/in/alex-naida/">
+                                                        <i class="fa-brands fa-linkedin"></i>
+                                                        LinkedIn - Alex Naida
+                                                    </a>
+                                                </p>
+                                                <p class="card-text pb-3">
+                                                    <a class="text-pink" target="_blank" href="mailto:a.o.naidenov@gmail.com">
+                                                        <i class="fa-brands fa-google text-pink"></i>
+                                                        Gmail - a.o.naidenov@gmail.com
+                                                    </a>
+                                                </p>
+                                                <p class="card-text">Alternatively you can mail me through the form.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-5">
+                                        <form class="card">
+                                            <h5 class="card-header">Write me an email directly!</h5>
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control" id="name_input" placeholder=" ">
+                                                        <label for="name_input">Name</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control" id="email_input" placeholder=" ">
+                                                        <label for="email_input">Email address</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control" id="subject_input" placeholder=" ">
+                                                        <label for="subject_input">Subject</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <textarea type="email" class="form-control" id="text_input" placeholder=" "></textarea>
+                                                        <label for="text_input">Message</label>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-outline">Send</button>
+                                                </form>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-purple">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-purple">© 2021 Alex Naida, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-purple" target="_blank" href="https://www.facebook.com/aon4o"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="ms-3"><a class="text-purple" target="_blank" href="https://www.instagram.com/besen_aon4o/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-purple" target="_blank" href="https://github.com/aon2003"><i class="fa-brands fa-github"></i></a></li>
+                <li class="ms-3"><a class="text-purple" target="_blank" href="https://www.linkedin.com/in/alex-naida/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="ms-3"><i class="fa-brands fa-google text-purple"></i></li>
+                <li class="ms-3"><a class="text-purple" target="_blank" href="mailto:a.o.naidenov@gmail.com">a.o.naidenov@gmail.com</a></li>
+            </ul>
+        </footer>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

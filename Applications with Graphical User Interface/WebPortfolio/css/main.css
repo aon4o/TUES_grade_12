@@ -1,0 +1,234 @@
+:root {
+    --purple: #4300a4;
+    --violet: #7400ce;
+    --pink: #eb29ff;
+    --light-pink: #d500ea;
+}
+
+body {
+    background-color: #855dd7;
+}
+
+input, textarea {
+    background-color: var(--purple) !important;
+    border-color: var(--violet) !important;
+}
+
+.img-about {
+    border-radius: 3rem;
+    border: 3px solid var(--purple) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.img-award {
+    max-width: 18rem;
+}
+
+.text-light-pink {
+    color: var(--light-pink);
+}
+
+.text-pink {
+    color: var(--pink);
+}
+
+.text-violet {
+    color: var(--violet);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+a.text-pink:hover {
+    color: var(--purple);
+}
+
+a.text-violet:hover {
+    color: var(--purple);
+}
+
+a.text-purple:hover {
+    color: var(--violet);
+}
+
+.border-purple {
+    border-color: var(--purple) !important;
+}
+
+.pb-10 {
+    padding-bottom: 10rem;
+}
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
+
+.mx-10 {
+    margin-right: 10rem !important;
+    margin-left: 10rem !important;
+}
+
+#name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.shadow-purple {
+    text-shadow: 2px 2px 5px var(--purple);
+}
+
+/*************/
+/* SCROLLBAR */
+/*************/
+::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+::-webkit-scrollbar-button, ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
+    background-color: var(--violet);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--pink);
+    border-radius: .3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--light-pink);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--purple);
+}
+
+/*******************/
+/* BACK TO TOP BTN */
+/*******************/
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 9999999999999999;
+    border-radius: 2rem;
+}
+
+/**********/
+/* NAVBAR */
+/**********/
+
+.navbar {
+    background: var(--violet);
+    color: var(--light-pink) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
+}
+
+.nav-link {
+    color: var(--light-pink);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link:hover, .nav-link:focus {
+    color: var(--pink);
+    background-color: var(--purple);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: var(--pink);
+    background-color: var(--purple);
+}
+
+.navbar-toggler {
+    color: var(--light-pink);
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+    color: var(--pink);
+    background-color: var(--purple);
+}
+/**************/
+/* LIST GROUP */
+/**************/
+.list-group {
+    /*background: var(--violet);*/
+    /*color: var(--light-pink) !important;*/
+}
+
+.list-group-item {
+    background: var(--violet);
+    color: var(--light-pink) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+    color: var(--pink) !important;
+    background-color: var(--purple);
+}
+
+.list-group-item.active {
+    color: var(--pink);
+    background-color: var(--purple);
+    border: none;
+}
+/**********/
+/* BUTTON */
+/**********/
+.btn {
+    color: var(--light-pink);
+    background-color: var(--violet);
+    border-color: var(--violet);
+}
+.btn-outline {
+    border: 0.125rem solid var(--purple) !important;
+}
+.btn:hover {
+    color: var(--pink);
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+.btn-check:focus + .btn, .btn:focus {
+    color: var(--pink);
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+.btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active, .show > .btn.dropdown-toggle {
+    color: var(--pink);
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+
+/********/
+/* CARD */
+/********/
+.card {
+    color: var(--light-pink);
+    background-color: var(--violet);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
+}
+
+.card-header {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/*************/
+/* SCROLLSPY */
+/*************/
+.scrollspy {
+    height: 30rem;
+    overflow: auto;
+}
+
+/****************/
+/* PROGRESS BAR */
+/****************/
+.progress {
+    background-color: var(--purple);
+    height: 0.75rem;
+}
+.progress-bar {
+    color: var(--violet);
+    background-color: var(--pink);
+}
