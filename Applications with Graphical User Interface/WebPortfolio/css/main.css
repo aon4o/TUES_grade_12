@@ -2,11 +2,11 @@
     --purple: #4300a4;
     --violet: #7400ce;
     --pink: #eb29ff;
-    --light-pink: #d500ea;
 }
 
 body {
     background-color: #855dd7;
+    color: #adadad !important;
 }
 
 input, textarea {
@@ -26,32 +26,12 @@ input, textarea {
     max-width: 18rem;
 }
 
-.text-light-pink {
-    color: var(--light-pink);
+.text {
+    color: #adadad;
 }
 
-.text-pink {
-    color: var(--pink);
-}
-
-.text-violet {
-    color: var(--violet);
-}
-
-.text-purple {
-    color: var(--purple);
-}
-
-a.text-pink:hover {
-    color: var(--purple);
-}
-
-a.text-violet:hover {
-    color: var(--purple);
-}
-
-a.text-purple:hover {
-    color: var(--violet);
+a.text:hover {
+    color: white;
 }
 
 .border-purple {
@@ -97,7 +77,7 @@ a.text-purple:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--light-pink);
+    background: #b700c7;
 }
 
 ::-webkit-scrollbar-thumb:active {
@@ -121,55 +101,50 @@ a.text-purple:hover {
 /**********/
 
 .navbar {
+    color: white !important;
     background: var(--violet);
-    color: var(--light-pink) !important;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
 }
 
 .nav-link {
-    color: var(--light-pink);
+    color: #adadad;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 .nav-link:hover, .nav-link:focus {
-    color: var(--pink);
+    color: white;
     background-color: var(--purple);
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-    color: var(--pink);
+    color: white;
     background-color: var(--purple);
 }
 
 .navbar-toggler {
-    color: var(--light-pink);
+    color: white;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
-    color: var(--pink);
+    color: white;
     background-color: var(--purple);
 }
 /**************/
 /* LIST GROUP */
 /**************/
-.list-group {
-    /*background: var(--violet);*/
-    /*color: var(--light-pink) !important;*/
-}
-
 .list-group-item {
+    color: #adadad;
     background: var(--violet);
-    color: var(--light-pink) !important;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
 }
 
 .list-group-item:hover, .list-group-item:focus {
-    color: var(--pink) !important;
+    color: white;
     background-color: var(--purple);
 }
 
 .list-group-item.active {
-    color: var(--pink);
+    color: white;
     background-color: var(--purple);
     border: none;
 }
@@ -177,34 +152,26 @@ a.text-purple:hover {
 /* BUTTON */
 /**********/
 .btn {
-    color: var(--light-pink);
+    color: #adadad;
     background-color: var(--violet);
     border-color: var(--violet);
 }
+
+.btn:hover, .btn:focus {
+    color: white;
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+
 .btn-outline {
     border: 0.125rem solid var(--purple) !important;
-}
-.btn:hover {
-    color: var(--pink);
-    background-color: var(--purple);
-    border-color: var(--purple);
-}
-.btn-check:focus + .btn, .btn:focus {
-    color: var(--pink);
-    background-color: var(--purple);
-    border-color: var(--purple);
-}
-.btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active, .show > .btn.dropdown-toggle {
-    color: var(--pink);
-    background-color: var(--purple);
-    border-color: var(--purple);
 }
 
 /********/
 /* CARD */
 /********/
 .card {
-    color: var(--light-pink);
+    color: white;
     background-color: var(--violet);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
 }
@@ -229,6 +196,6 @@ a.text-purple:hover {
     height: 0.75rem;
 }
 .progress-bar {
-    color: var(--violet);
+    color: white;
     background-color: var(--pink);
 }
